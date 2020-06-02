@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881B1B7C24851FA400FB511F /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B1B7B24851FA400FB511F /* AlertController.swift */; };
+		8820F14924861AB300679B5B /* UninstallGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8820F14824861AB300679B5B /* UninstallGuideViewController.swift */; };
+		8820F14D248620E600679B5B /* CongratulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8820F14C248620E600679B5B /* CongratulationViewController.swift */; };
+		88C9ACEB2484C45700005173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9ACEA2484C45700005173 /* AppDelegate.swift */; };
+		88C9ACED2484C45700005173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9ACEC2484C45700005173 /* SceneDelegate.swift */; };
+		88C9ACEF2484C45700005173 /* InstalledChinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9ACEE2484C45700005173 /* InstalledChinaViewController.swift */; };
+		88C9ACF22484C45700005173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C9ACF02484C45700005173 /* Main.storyboard */; };
+		88C9ACF42484C45B00005173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C9ACF32484C45B00005173 /* Assets.xcassets */; };
+		88C9ACF72484C45B00005173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C9ACF52484C45B00005173 /* LaunchScreen.storyboard */; };
+		88C9AD022484C45B00005173 /* RemoveChinaAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9AD012484C45B00005173 /* RemoveChinaAppsTests.swift */; };
+		88C9AD0D2484C66900005173 /* AppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9AD0C2484C66900005173 /* AppTableViewCell.swift */; };
+		88C9AD0F2484C96B00005173 /* ChinaAppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9AD0E2484C96B00005173 /* ChinaAppListViewController.swift */; };
+		88C9AD112484CDC100005173 /* schemes.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C9AD102484CDC100005173 /* schemes.json */; };
+		88C9AD142484CDE600005173 /* SchemeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9AD122484CDE500005173 /* SchemeRepository.swift */; };
+		88C9AD152484CDE600005173 /* SchemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9AD132484CDE600005173 /* SchemeManager.swift */; };
+		88C9AD172484F41E00005173 /* HowToDoItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9AD162484F41E00005173 /* HowToDoItViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88C9ACFE2484C45B00005173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C9ACDF2484C45700005173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C9ACE62484C45700005173;
+			remoteInfo = RemoveChinaApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		881B1B7B24851FA400FB511F /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		8820F14824861AB300679B5B /* UninstallGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UninstallGuideViewController.swift; sourceTree = "<group>"; };
+		8820F14C248620E600679B5B /* CongratulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationViewController.swift; sourceTree = "<group>"; };
+		88C9ACE72484C45700005173 /* RemoveChinaApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoveChinaApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C9ACEA2484C45700005173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88C9ACEC2484C45700005173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88C9ACEE2484C45700005173 /* InstalledChinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledChinaViewController.swift; sourceTree = "<group>"; };
+		88C9ACF12484C45700005173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C9ACF32484C45B00005173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C9ACF62484C45B00005173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88C9ACF82484C45B00005173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C9ACFD2484C45B00005173 /* RemoveChinaAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoveChinaAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C9AD012484C45B00005173 /* RemoveChinaAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveChinaAppsTests.swift; sourceTree = "<group>"; };
+		88C9AD032484C45B00005173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C9AD0C2484C66900005173 /* AppTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTableViewCell.swift; sourceTree = "<group>"; };
+		88C9AD0E2484C96B00005173 /* ChinaAppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaAppListViewController.swift; sourceTree = "<group>"; };
+		88C9AD102484CDC100005173 /* schemes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schemes.json; sourceTree = "<group>"; };
+		88C9AD122484CDE500005173 /* SchemeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemeRepository.swift; sourceTree = "<group>"; };
+		88C9AD132484CDE600005173 /* SchemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemeManager.swift; sourceTree = "<group>"; };
+		88C9AD162484F41E00005173 /* HowToDoItViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDoItViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C9ACE42484C45700005173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C9ACFA2484C45B00005173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C9ACDE2484C45700005173 = {
+			isa = PBXGroup;
+			children = (
+				88C9ACE92484C45700005173 /* RemoveChinaApps */,
+				88C9AD002484C45B00005173 /* RemoveChinaAppsTests */,
+				88C9ACE82484C45700005173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C9ACE82484C45700005173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C9ACE72484C45700005173 /* RemoveChinaApps.app */,
+				88C9ACFD2484C45B00005173 /* RemoveChinaAppsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C9ACE92484C45700005173 /* RemoveChinaApps */ = {
+			isa = PBXGroup;
+			children = (
+				88C9ACEA2484C45700005173 /* AppDelegate.swift */,
+				88C9ACEC2484C45700005173 /* SceneDelegate.swift */,
+				88C9ACEE2484C45700005173 /* InstalledChinaViewController.swift */,
+				88C9AD0E2484C96B00005173 /* ChinaAppListViewController.swift */,
+				88C9AD162484F41E00005173 /* HowToDoItViewController.swift */,
+				8820F14824861AB300679B5B /* UninstallGuideViewController.swift */,
+				88C9AD0C2484C66900005173 /* AppTableViewCell.swift */,
+				88C9AD132484CDE600005173 /* SchemeManager.swift */,
+				88C9AD122484CDE500005173 /* SchemeRepository.swift */,
+				881B1B7B24851FA400FB511F /* AlertController.swift */,
+				8820F14C248620E600679B5B /* CongratulationViewController.swift */,
+				88C9ACF02484C45700005173 /* Main.storyboard */,
+				88C9ACF32484C45B00005173 /* Assets.xcassets */,
+				88C9ACF52484C45B00005173 /* LaunchScreen.storyboard */,
+				88C9AD102484CDC100005173 /* schemes.json */,
+				88C9ACF82484C45B00005173 /* Info.plist */,
+			);
+			path = RemoveChinaApps;
+			sourceTree = "<group>";
+		};
+		88C9AD002484C45B00005173 /* RemoveChinaAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				88C9AD012484C45B00005173 /* RemoveChinaAppsTests.swift */,
+				88C9AD032484C45B00005173 /* Info.plist */,
+			);
+			path = RemoveChinaAppsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C9ACE62484C45700005173 /* RemoveChinaApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C9AD062484C45B00005173 /* Build configuration list for PBXNativeTarget "RemoveChinaApps" */;
+			buildPhases = (
+				88C9ACE32484C45700005173 /* Sources */,
+				88C9ACE42484C45700005173 /* Frameworks */,
+				88C9ACE52484C45700005173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoveChinaApps;
+			productName = RemoveChinaApps;
+			productReference = 88C9ACE72484C45700005173 /* RemoveChinaApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88C9ACFC2484C45B00005173 /* RemoveChinaAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C9AD092484C45B00005173 /* Build configuration list for PBXNativeTarget "RemoveChinaAppsTests" */;
+			buildPhases = (
+				88C9ACF92484C45B00005173 /* Sources */,
+				88C9ACFA2484C45B00005173 /* Frameworks */,
+				88C9ACFB2484C45B00005173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C9ACFF2484C45B00005173 /* PBXTargetDependency */,
+			);
+			name = RemoveChinaAppsTests;
+			productName = RemoveChinaAppsTests;
+			productReference = 88C9ACFD2484C45B00005173 /* RemoveChinaAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C9ACDF2484C45700005173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Remove China";
+				TargetAttributes = {
+					88C9ACE62484C45700005173 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					88C9ACFC2484C45B00005173 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 88C9ACE62484C45700005173;
+					};
+				};
+			};
+			buildConfigurationList = 88C9ACE22484C45700005173 /* Build configuration list for PBXProject "RemoveChinaApps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C9ACDE2484C45700005173;
+			productRefGroup = 88C9ACE82484C45700005173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C9ACE62484C45700005173 /* RemoveChinaApps */,
+				88C9ACFC2484C45B00005173 /* RemoveChinaAppsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C9ACE52484C45700005173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C9AD112484CDC100005173 /* schemes.json in Resources */,
+				88C9ACF72484C45B00005173 /* LaunchScreen.storyboard in Resources */,
+				88C9ACF42484C45B00005173 /* Assets.xcassets in Resources */,
+				88C9ACF22484C45700005173 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C9ACFB2484C45B00005173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C9ACE32484C45700005173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C9AD142484CDE600005173 /* SchemeRepository.swift in Sources */,
+				881B1B7C24851FA400FB511F /* AlertController.swift in Sources */,
+				88C9ACEF2484C45700005173 /* InstalledChinaViewController.swift in Sources */,
+				88C9AD0D2484C66900005173 /* AppTableViewCell.swift in Sources */,
+				88C9AD172484F41E00005173 /* HowToDoItViewController.swift in Sources */,
+				88C9AD0F2484C96B00005173 /* ChinaAppListViewController.swift in Sources */,
+				8820F14D248620E600679B5B /* CongratulationViewController.swift in Sources */,
+				8820F14924861AB300679B5B /* UninstallGuideViewController.swift in Sources */,
+				88C9ACEB2484C45700005173 /* AppDelegate.swift in Sources */,
+				88C9AD152484CDE600005173 /* SchemeManager.swift in Sources */,
+				88C9ACED2484C45700005173 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C9ACF92484C45B00005173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C9AD022484C45B00005173 /* RemoveChinaAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88C9ACFF2484C45B00005173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C9ACE62484C45700005173 /* RemoveChinaApps */;
+			targetProxy = 88C9ACFE2484C45B00005173 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88C9ACF02484C45700005173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C9ACF12484C45700005173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88C9ACF52484C45B00005173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C9ACF62484C45B00005173 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C9AD042484C45B00005173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88C9AD052484C45B00005173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C9AD072484C45B00005173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VB78Y67GX6;
+				INFOPLIST_FILE = RemoveChinaApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.removechina.RemoveChinaApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS WildCard Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C9AD082484C45B00005173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VB78Y67GX6;
+				INFOPLIST_FILE = RemoveChinaApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.removechina.RemoveChinaApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS WildCard Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88C9AD0A2484C45B00005173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoveChinaAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.removechina.RemoveChinaAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoveChinaApps.app/RemoveChinaApps";
+			};
+			name = Debug;
+		};
+		88C9AD0B2484C45B00005173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoveChinaAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.removechina.RemoveChinaAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoveChinaApps.app/RemoveChinaApps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C9ACE22484C45700005173 /* Build configuration list for PBXProject "RemoveChinaApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C9AD042484C45B00005173 /* Debug */,
+				88C9AD052484C45B00005173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C9AD062484C45B00005173 /* Build configuration list for PBXNativeTarget "RemoveChinaApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C9AD072484C45B00005173 /* Debug */,
+				88C9AD082484C45B00005173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C9AD092484C45B00005173 /* Build configuration list for PBXNativeTarget "RemoveChinaAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C9AD0A2484C45B00005173 /* Debug */,
+				88C9AD0B2484C45B00005173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C9ACDF2484C45700005173 /* Project object */;
+}

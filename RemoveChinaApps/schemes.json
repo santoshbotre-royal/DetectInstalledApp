@@ -1,0 +1,159 @@
+[
+  {
+    "appname": "TikTok",
+    "icon": "tiktok",
+    "seller": "TikTok Inc.",
+    "scheme": "snssdk1233://"
+  },
+  {
+    "appname": "Zynn",
+    "icon": "zynn",
+    "seller": "Qianyun Zhao",
+    "scheme": "zynn://"
+  },
+  {
+    "appname": "PUBG MOBILE - Mad Miramar",
+    "icon": "pubg",
+    "seller": "Tencent Technology (Shenzhen) Company Limited",
+    "scheme": "pubg://"
+  },
+  {
+    "appname": "CamScanner-PDF Scanner App",
+    "icon": "camscanner",
+    "seller": "INTSIG Information Co.,Ltd",
+    "scheme": "camscanner://"
+  },
+  {
+    "appname": "CamCard -Business Card Scanner",
+    "icon": "camcard",
+    "seller": "INTSIG Information Co.,Ltd",
+    "scheme": "camcard://"
+  },
+  {
+    "appname": "WeChat",
+    "icon": "wechat",
+    "seller": "Tencent Technology (Shenzhen) Company Limited",
+    "scheme": "weixin://"
+  },
+  {
+    "appname": "Vigo Video - Funny Short Video",
+    "icon": "vigo",
+    "seller": "TikTok Pte. Ltd.",
+    "scheme": "line3rdp.com.ss.iphone.ugc.Boom://"
+  },
+  {
+    "appname": "UC Browser",
+    "icon": "ucbrowser",
+    "seller": "UC Callmaster Mobile Co., Ltd",
+    "scheme": "ucbrowser://"
+  },
+  {
+    "appname": "Helo - Share Your Life",
+    "icon": "helo",
+    "seller": "Helo Holdings Limited",
+    "scheme": "helo://"
+  },
+  {
+    "appname": "SHAREit - Connect & Transfer",
+    "icon": "shareit",
+    "seller": "SHAREit Technologies Co. Ltd",
+    "scheme": "shareit://"
+  },
+  {
+    "appname": "Clash of Clans",
+    "icon": "clashofclans",
+    "seller": "Supercell Oy",
+    "scheme": "clashofclans://"
+  },
+  {
+    "appname": "Hulu: Stream TV shows & movies",
+    "icon": "hulu",
+    "seller": "Hulu, LLC",
+    "scheme": "hulu://"
+  },
+  {
+    "appname": "Litely",
+    "icon": "litely",
+    "seller": "LITELY LLC",
+    "scheme": "litely://"
+  },
+  {
+    "appname": "Xender:File Share,Share Music",
+    "icon": "xender",
+    "seller": "Beijing AnQiZhiLian Inc.",
+    "scheme": "cn.shanchuan.shanchuan://"
+  },
+  {
+    "appname": "Kwai - Video Social Network",
+    "icon": "kwai",
+    "seller": "JOYO TECHNOLOGY PTE. LTD.",
+    "scheme": "com.kwai.intl://"
+  },
+  {
+    "appname": "Viva Video",
+    "icon": "vivavideo",
+    "seller": "QuVideo Inc.",
+    "scheme": "vivavideo://"
+  },
+  {
+    "appname": "VMate",
+    "icon": "vmate",
+    "seller": "Beijing UCWEB Internet Technology Co.,Ltd",
+    "scheme": "vmateinvitation://"
+  },
+  {
+    "appname": "Club Factory",
+    "icon": "clubfactory",
+    "seller": "Jiayun Data Limited",
+    "scheme": "fromfactory://"
+  },
+  {
+    "appname": "ZOOM",
+    "icon": "zoom",
+    "seller": "Zoom Video Communications, Inc.",
+    "scheme": "zoom://"
+  },
+  {
+    "appname": "Likee - Formerly LIKE Video",
+    "icon": "likee",
+    "seller": "BIGO TECHNOLOGY PTE. LTD.",
+    "scheme": "likevideo://"
+  },
+  {
+    "appname": "LivU – Live Video Chat",
+    "icon": "livu",
+    "seller": "CLASH ARTS HK LIMITED",
+    "scheme": "livu://"
+  },
+  {
+    "appname": "LiveMe –Live Video Chat",
+    "icon": "liveme",
+    "seller": "KS Mobile, Inc.",
+    "scheme": "liveme://"
+  },
+  {
+    "appname": "BeautyPlus -Snap, Edit, Filter",
+    "icon": "beauty",
+    "seller": "Meitu Technology, Inc.",
+    "scheme": "beautyplus://"
+  },
+  {
+    "appname": "Clash of Kings",
+    "icon": "cok",
+    "seller": "ELEX Technology Holdings Co., Ltd.",
+    "scheme": "clashofkings://"
+  },
+  {
+    "appname": "SHEIN-Fashion Shopping Online",
+    "icon": "shein",
+    "seller": "Shein Group Ltd",
+    "scheme": "shein://"
+  },
+  {
+    "appname": "Tencent",
+    "icon": "likese",
+    "seller": "BIGO TECHNOLOGY PTE. LTD.",
+    "scheme": "tencent://"
+  },
+
+]
