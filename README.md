@@ -1,6 +1,9 @@
 # #Detect and Remove Apps
 After popularity of [Remove China Apps](https://play.google.com/store/apps/details?id=com.chinaappsremover) - On the Google Play Store many of my friends where asking for the similar kind of application on iOS.
 
+| ![Remove](Remove.png) |
+| :--: | 
+
 ## Just For Fun
 This application is being developed for R&D purposes only to identify a certain application(s), I do not want people to uninstall any of the application(s) they are using currently. 
 
@@ -19,4 +22,4 @@ I do not guarantee for any correct/wrong information, so users should act only a
 #### Screenshots for you: 
 ![List of apps installed](InstalledApps.png)
 
-![LCongratulations](Congratulations.png)
+![Congratulations](Congratulations.png)
