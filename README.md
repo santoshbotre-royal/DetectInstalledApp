@@ -1,4 +1,4 @@
-# #BoycottChina
+# #Detect and Remove Apps
 After popularity of [Remove China Apps](https://play.google.com/store/apps/details?id=com.chinaappsremover) - On the Google Play Store many of my friends where asking for the similar kind of application on iOS.
 
 ## Just For Fun
