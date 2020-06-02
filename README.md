@@ -16,3 +16,7 @@ I do not guarantee for any correct/wrong information, so users should act only a
 
 * If you notice that any content in our app violates copyrights than please inform me so that i remove that content.  
 
+#### Screenshots for you: 
+![List of apps installed](InstalledApps.png)
+
+![LCongratulations](Congratulations.png)
