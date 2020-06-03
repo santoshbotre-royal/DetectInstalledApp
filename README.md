@@ -26,11 +26,13 @@ I do not guarantee for any correct/wrong information, so users should act only a
 
 
 #### FAQ:
-* Why not publish this application on AppStore?
-   Answer: Apple strict guidelines.
+* Why not publish this application on AppStore? 
+
+__Answer:__ Apple strict guidelines.
 
 * How does it work?
-   Answer: Custom URL Scheme
+
+__Answer:__ Custom URL Scheme
    
 #### Credit
 
