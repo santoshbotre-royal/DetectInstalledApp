@@ -25,6 +25,13 @@ I do not guarantee for any correct/wrong information, so users should act only a
 ![Congratulations](Congratulations.png)
 
 
+#### FAQ:
+* Why not publish this application on AppStore?
+   Answer: Apple strict guidelines.
+
+* How does it work?
+   Answer: Custom URL Scheme
+   
 #### Credit
 
 Finding the custom URL scheme of an iOS application has been done using iMazing MacOS App.
